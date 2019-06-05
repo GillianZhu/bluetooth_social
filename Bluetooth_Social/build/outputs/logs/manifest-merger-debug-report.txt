@@ -1,0 +1,367 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:1-173:12
+	package
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:9:5-10:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:11:5-12:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:13:5-14:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:15:5-16:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:17:5-18:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:19:22-68
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:20:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:23:5-24:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:23:22-81
+uses-permission#android.permission.CAMERA
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:25:5-26:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:25:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:27:5-28:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:27:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:29:5-30:23
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:29:22-77
+application
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:32:5-171:19
+	android:label
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:36:9-41
+	android:icon
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:35:9-42
+	android:allowBackup
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:37:9-39
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:34:9-53
+meta-data#BaiduMobAd_CHANNEL
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:40:9-42:46
+	android:value
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:42:13-43
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:41:13-46
+meta-data#BaiduMobAd_STAT_ID
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:44:9-46:42
+	android:value
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:46:13-39
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:45:13-46
+meta-data#BaiduMobAd_EXCEPTION_LOG
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:49:9-51:36
+	android:value
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:51:13-33
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:50:13-52
+meta-data#BaiduMobAd_SEND_STRATEGY
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:54:9-56:41
+	android:value
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:56:13-38
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:55:13-52
+meta-data#BaiduMobAd_ONLY_WIFI
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:60:9-62:37
+	android:value
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:62:13-34
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:61:13-48
+activity#edu.minggo.chat.LogoActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:64:9-72:20
+	android:label
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:66:13-45
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:65:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:67:13-71:29
+action#android.intent.action.MAIN
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:68:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:70:27-74
+service#edu.minggo.chat.control.BluetoothChatService
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:74:9-78:19
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:74:18-62
+intent-filter#action:name:edu.minggo.chat.control.BluetoothChatService
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:75:13-77:29
+action#edu.minggo.chat.control.BluetoothChatService
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:76:17-87
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:76:25-84
+provider#edu.minggo.chat.database.MyContentProvider
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:80:9-82:80
+	android:authorities
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:82:13-77
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:81:13-55
+activity#edu.minggo.chat.ui.TencentWeiboActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:84:9-61
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:84:19-58
+activity#edu.minggo.chat.ui.PrepareRequestTokenActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:86:9-99:20
+	android:launchMode
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:87:13-59
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:callback+data:scheme:x-oauthflow
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:89:13-98:29
+action#android.intent.action.VIEW
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:90:17-69
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:90:25-66
+category#android.intent.category.BROWSABLE
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:92:17-78
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:92:27-75
+category#android.intent.category.DEFAULT
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:93:17-76
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:93:27-73
+data
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:95:17-97:52
+	android:host
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:96:21-44
+	android:scheme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:97:21-49
+activity#edu.minggo.chat.ui.TencentWeiboBoundActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:100:9-66
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:100:19-63
+activity#edu.minggo.chat.ui.ChattingMessageImageActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:101:9-69
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:101:19-66
+activity#edu.minggo.chat.ui.GameShakeActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:102:9-104:63
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:104:13-60
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:103:13-49
+activity#edu.minggo.chat.ui.ExitFromPersonInfoActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:105:9-107:58
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:107:13-55
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:106:13-58
+activity#edu.minggo.chat.ui.ExitFromSettingsActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:108:9-110:58
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:110:13-55
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:109:13-56
+activity#edu.minggo.chat.ui.GameFiveTopRightDialog
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:111:9-113:55
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:113:13-52
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:112:13-54
+activity#edu.minggo.chat.ui.MainTopRightDialog
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:114:9-116:55
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:116:13-52
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:115:13-50
+activity#edu.minggo.chat.ui.MainTabActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:117:9-120:55
+	android:windowSoftInputMode
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:120:13-52
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:119:13-47
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:118:13-47
+activity#edu.minggo.chat.ui.ExitActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:121:9-123:57
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:123:13-54
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:122:13-44
+activity#edu.minggo.chat.ui.ChattingActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:124:9-126:57
+	android:windowSoftInputMode
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:126:13-54
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:125:13-48
+activity#edu.minggo.chat.ui.LoginActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:127:9-129:57
+	android:windowSoftInputMode
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:129:13-54
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:128:13-45
+activity#edu.minggo.chat.ui.MyGalleryDetailActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:130:9-64
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:130:19-61
+activity#edu.minggo.chat.ui.GameFiveChessActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:131:9-62
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:131:19-59
+activity#edu.minggo.chat.ui.GameIceCreamActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:132:9-61
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:132:19-58
+activity#edu.minggo.chat.ui.GameStoneScissorsClothActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:133:9-71
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:133:19-68
+activity#edu.minggo.chat.ui.GameCrazyLottery
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:134:9-57
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:134:19-54
+activity#edu.minggo.chat.ui.PersonalInfoSettingAcitivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:135:9-69
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:135:19-66
+activity#edu.minggo.chat.ui.PersonalInforAcitivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:136:9-63
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:136:19-60
+activity#edu.minggo.chat.ui.PersonalPortraitActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:137:9-139:48
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:139:13-45
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:138:13-56
+activity#edu.minggo.chat.ui.BluetoothChatActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:140:9-62
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:140:19-59
+activity#edu.minggo.chat.ui.PersonnelLocation
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:141:9-58
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:141:19-55
+activity#edu.minggo.chat.ui.MyGalleryActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:142:9-58
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:142:19-55
+activity#edu.minggo.chat.ui.AppAboutActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:143:9-57
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:143:19-54
+activity#edu.minggo.chat.ui.MyphotoAddActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:144:9-59
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:144:19-56
+activity#edu.minggo.chat.ui.DeviceDetectDialogActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:145:9-147:58
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:147:13-55
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:146:13-58
+activity#edu.minggo.chat.ui.LoadingActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:148:9-150:57
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:150:13-54
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:149:13-47
+activity#edu.minggo.chat.ui.WelcomeActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:151:9-153:46
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:153:13-43
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:152:13-47
+activity#edu.minggo.chat.ui.ModifyMyInformationActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:154:9-156:57
+	android:windowSoftInputMode
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:156:13-54
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:155:13-59
+activity#edu.minggo.chat.ui.DeviceListActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:157:9-160:59
+	android:label
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:159:13-50
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:160:13-56
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:158:13-50
+activity#edu.minggo.chat.ui.DeviceRequestActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:161:9-164:59
+	android:label
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:163:13-50
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:164:13-56
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:162:13-53
+activity#edu.minggo.chat.ui.SexSelectActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:165:9-167:45
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:167:13-42
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:166:13-49
+activity#edu.minggo.chat.ui.AboutDialogActivity
+ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:168:9-170:45
+	android:theme
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:170:13-42
+	android:name
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml:169:13-51
+uses-sdk
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		ADDED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProject\Bluetooth_Social1\Bluetooth_Social\src\main\AndroidManifest.xml
