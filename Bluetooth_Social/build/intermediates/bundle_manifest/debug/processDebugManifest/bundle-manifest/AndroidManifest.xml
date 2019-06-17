@@ -87,27 +87,7 @@
             android:name="edu.minggo.chat.database.MyContentProvider"
             android:authorities="edu.minggo.chat.database.MyContentProvider" />
 
-        <activity android:name="edu.minggo.chat.ui.TencentWeiboActivity" />
-        <!-- android:scheme和android:host的值和Constants中配置的保持一致，回调将 执行此Activity -->
-        <activity
-            android:name="edu.minggo.chat.ui.PrepareRequestTokenActivity"
-            android:launchMode="singleTask" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="callback"
-                    android:scheme="x-oauthflow" />
-            </intent-filter>
-        </activity>
-        <activity android:name="edu.minggo.chat.ui.TencentWeiboBoundActivity" />
         <activity android:name="edu.minggo.chat.ui.ChattingMessageImageActivity" />
-        <activity
-            android:name="edu.minggo.chat.ui.GameShakeActivity"
-            android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name="edu.minggo.chat.ui.ExitFromPersonInfoActivity"
             android:theme="@style/MyDialogStyleBottom" />
@@ -135,15 +115,11 @@
             android:windowSoftInputMode="stateHidden" />
         <activity android:name="edu.minggo.chat.ui.MyGalleryDetailActivity" />
         <activity android:name="edu.minggo.chat.ui.GameFiveChessActivity" />
-        <activity android:name="edu.minggo.chat.ui.GameIceCreamActivity" />
-        <activity android:name="edu.minggo.chat.ui.GameStoneScissorsClothActivity" />
-        <activity android:name="edu.minggo.chat.ui.GameCrazyLottery" />
         <activity android:name="edu.minggo.chat.ui.PersonalInfoSettingAcitivity" />
         <activity android:name="edu.minggo.chat.ui.PersonalInforAcitivity" />
         <activity
             android:name="edu.minggo.chat.ui.PersonalPortraitActivity"
             android:theme="@style/HeadScale" />
-        <activity android:name="edu.minggo.chat.ui.BluetoothChatActivity" />
         <activity android:name="edu.minggo.chat.ui.PersonnelLocation" />
         <activity android:name="edu.minggo.chat.ui.MyGalleryActivity" />
         <activity android:name="edu.minggo.chat.ui.AppAboutActivity" />

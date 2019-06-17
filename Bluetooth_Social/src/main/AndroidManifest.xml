@@ -81,27 +81,8 @@
             android:name=".database.MyContentProvider"
             android:authorities="edu.minggo.chat.database.MyContentProvider" />
 
-        <activity android:name=".ui.TencentWeiboActivity" />
-        <!-- android:scheme和android:host的值和Constants中配置的保持一致，回调将 执行此Activity -->
-        <activity
-            android:name=".ui.PrepareRequestTokenActivity"
-            android:launchMode="singleTask" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="callback"
-                    android:scheme="x-oauthflow" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ui.TencentWeiboBoundActivity" />
         <activity android:name=".ui.ChattingMessageImageActivity" />
-        <activity
-            android:name=".ui.GameShakeActivity"
-            android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".ui.ExitFromPersonInfoActivity"
             android:theme="@style/MyDialogStyleBottom" />
@@ -129,15 +110,11 @@
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".ui.MyGalleryDetailActivity" />
         <activity android:name=".ui.GameFiveChessActivity" />
-        <activity android:name=".ui.GameIceCreamActivity" />
-        <activity android:name=".ui.GameStoneScissorsClothActivity" />
-        <activity android:name=".ui.GameCrazyLottery" />
         <activity android:name=".ui.PersonalInfoSettingAcitivity" />
         <activity android:name=".ui.PersonalInforAcitivity" />
         <activity
             android:name=".ui.PersonalPortraitActivity"
             android:theme="@style/HeadScale" />
-        <activity android:name=".ui.BluetoothChatActivity" />
         <activity android:name=".ui.PersonnelLocation" />
         <activity android:name=".ui.MyGalleryActivity" />
         <activity android:name=".ui.AppAboutActivity" />

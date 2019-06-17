@@ -27,7 +27,7 @@
         	<TextView
         		android:layout_width="wrap_content"
         		android:layout_height="wrap_content"
-        		android:text="姝ｅ湪鐧诲綍"
+        		android:text="登录中"
        			android:layout_marginTop="10dp"
         		android:textColor="#fff"
         		android:textSize="20sp"

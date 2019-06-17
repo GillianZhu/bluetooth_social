@@ -823,6 +823,15 @@ public class ChattingActivity extends MapActivity implements OnClickListener{
 		}
 	}
 	/**
+	 * 发送短信息
+	 * @throws UnsupportedEncodingException
+	 */
+	private void sendInfo(){
+		HashMap<Integer, byte[]> param = new HashMap<Integer, byte[]>();
+		Task task = new Task(Task.TASK_SEND_MYINFO, param);
+		BluetoothChatService.newTask(task);
+	}
+	/**
 	 * 处理ui更新的handler
 	 */
 	private Handler mHandler = new Handler() {
@@ -841,14 +850,15 @@ public class ChattingActivity extends MapActivity implements OnClickListener{
 					friendname.setText("正在连接...");
 				}else if (msg.arg1==STATE_CONNECTED) {
 					friendname.setText("已连接");
+					sendInfo();
 				}
 				break;
 			case MESSAGE_TOAST:
 				if (msg.arg1==1) {
-					Toast.makeText(ChattingActivity.this, "连接失败", 3000).show();
+					Toast.makeText(ChattingActivity.this, "连接失败", Toast.LENGTH_LONG).show();
 					friendname.setText("未连接");
 				}else if (msg.arg1==2) {
-					Toast.makeText(ChattingActivity.this, "连接中断", 3000).show();
+					Toast.makeText(ChattingActivity.this, "连接中断", Toast.LENGTH_LONG).show();
 					friendname.setText("连接中断");
 				}
 				break;
@@ -858,10 +868,15 @@ public class ChattingActivity extends MapActivity implements OnClickListener{
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
-				Toast.makeText(ChattingActivity.this, "发送成功", 3000).show();
+				Toast.makeText(ChattingActivity.this, "发送成功", Toast.LENGTH_LONG).show();
 				break;
 			case MESSAGE_SEND_FAILED:
-				Toast.makeText(ChattingActivity.this, "发送失败", 3000).show();
+				if (msg.arg1 == -1){
+					Toast.makeText(ChattingActivity.this, "发送失败", Toast.LENGTH_LONG).show();
+				}
+				else if (msg.arg1 == 0){
+					Toast.makeText(ChattingActivity.this, "用户获取失败", Toast.LENGTH_LONG).show();
+				}
 				break;
 			case MESSAGE_READ:
 				try {
@@ -871,11 +886,7 @@ public class ChattingActivity extends MapActivity implements OnClickListener{
 				}
 				if (msg.arg1==0) {//收字符串
 					String readMessage = null;
-					try {
-						readMessage = new String(((String) msg.obj).getBytes("GBK"),"UTF8");
-					} catch (UnsupportedEncodingException e) {
-						e.printStackTrace();
-					} 
+					readMessage = (String)msg.obj;
 					d = new MessageEntity(readMessage,R.layout.chatting_item_msg_text_left,"1",DateUtil.getCurrentTiem());
 					d.setTtmContent(readMessage);
 					d.setLayoutID(R.layout.chatting_item_msg_text_left);
@@ -923,6 +934,8 @@ public class ChattingActivity extends MapActivity implements OnClickListener{
 					messageEntities.add(d);
 					chatMeassagelv.setAdapter(new ChatMessageAdapter(ChattingActivity.this,messageEntities,"1"));
 					chatMeassagelv.setSelection(messageEntities.size());
+				}else if (msg.arg1==4) {
+					friendname.setText((String)msg.obj);
 				}
 				break;
 			case MESSAGE_WRITE:

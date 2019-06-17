@@ -87,7 +87,7 @@ public class BluetoothChatService extends Service implements Runnable {
 	public static final int STATE_CONNECT_THE_SAME = 8; // 链接已连接的设备
 	public static final int STATE_REFRESH_MAINACTIVITY = 12; // 刷新Mainactivity
 	
-	//作为ChattingActivities 穿过来的Handler
+	//作为ChattingActivities 传过来的Handler
 	private static Handler mHandler;
 	//作为GameFiveChessActivity.java 穿过来的Handler
     @SuppressWarnings("unused")
@@ -184,6 +184,9 @@ public class BluetoothChatService extends Service implements Runnable {
 				break;
 			case Task.TASK_SEND_MESSAGE://发送文字或表情
 				write((byte[]) task.getTaskParam().get(BluetoothChatService.STATE_SEND_MESSAGE));
+				break;
+			case Task.TASK_SEND_MYINFO://发送用户信息
+				write_name(nowuser.getLoginname());
 				break;
 			case Task.TASK_SEND_IMAGE: //发图片
 				File image = new File((String)task.getTaskParam().get("talkPicPath"));
@@ -373,8 +376,8 @@ public class BluetoothChatService extends Service implements Runnable {
 
 	/**
 	 * 开启一个已连接的线程去开始管理一个蓝牙的连接。
-	 * @param socket连接好的BluetoothSocket
-	 * @param device连接好的设备
+	 * @param socket 连接好的BluetoothSocket
+	 * @param device 连接好的设备
 	 */
 	public synchronized void connected(BluetoothSocket socket,BluetoothDevice device, final String socketType) {
 
@@ -458,6 +461,20 @@ public class BluetoothChatService extends Service implements Runnable {
 			r = mConnectedThread;
 		}
 		r.write(out);
+	}
+	/**
+	 * 写在连接线程当中是一个非同步的方法
+	 * @param out 字节类型的out
+	 * @see ConnectedThread#write(byte[])
+	 */
+	public void write_name(String name) {
+		ConnectedThread r;
+		synchronized (this) {
+			if (mState != STATE_CONNECTED)
+				return;
+			r = mConnectedThread;
+		}
+		r.write_name(name);
 	}
 	/**
 	 * 写在连接线程当中是一个非同步的方法
@@ -755,6 +772,11 @@ public class BluetoothChatService extends Service implements Runnable {
 								mmInStream.read(msgByte);
 								mHandler.obtainMessage(GameFiveChessActivity.MESSAGE_READ,0, 0, new String(msgByte)).sendToTarget();
 								messagekind = -1;
+							}else if (shead.equals("[MessageN]")) {
+								byte[] msgByte = new byte[lenght];
+								mmInStream.read(msgByte);
+								mHandler.obtainMessage(ChattingActivity.MESSAGE_READ,4, 0, new String(msgByte)).sendToTarget();
+								messagekind = -1;
 							}
 						}
 						if(messagekind == 1){//接图片
@@ -827,6 +849,22 @@ public class BluetoothChatService extends Service implements Runnable {
 				mHandler.obtainMessage(ChattingActivity.MESSAGE_SEND_OK, -1, -1,"0").sendToTarget();
 			} catch (IOException e) {
 				mHandler.obtainMessage(ChattingActivity.MESSAGE_SEND_FAILED, -1, -1,"1").sendToTarget();
+				e.printStackTrace();
+			}
+		}
+		/**
+		 * 写到输出流中
+		 * @param name
+		 */
+		public void write_name(String name) {
+			byte[] content = name.getBytes();
+			String head = "[MessageN]"+MessageLen.getLenght(content)+name;
+			byte[] allcontent = head.getBytes();
+			try {
+				mmOutStream.write(allcontent);
+				mmOutStream.flush();
+			} catch (IOException e) {
+				mHandler.obtainMessage(ChattingActivity.MESSAGE_SEND_FAILED, 0, -1,"1").sendToTarget();
 				e.printStackTrace();
 			}
 		}

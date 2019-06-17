@@ -19,6 +19,7 @@ public class User implements Serializable {
 	private String hobby;
 	private String introduce;
 	private String email;
+
 	private Bitmap photo;
 	private String province;
 	private String personkind;

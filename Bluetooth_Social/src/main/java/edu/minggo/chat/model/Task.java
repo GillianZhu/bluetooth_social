@@ -27,6 +27,7 @@ public class Task {
 	public static final int TASK_GET_USER_ADDRESS = 17;//通讯录列表
 	public static final int TASK_REFREAH_GALLERY = 18;//更新相册
 	public static final int TASK_CHESS_NEXT = 20;//更新相册
+	public static final int TASK_SEND_MYINFO = 21;//发送自己的信息
 	
 	public Task(int id, @SuppressWarnings("rawtypes") Map param) {
 		this.taskID = id;

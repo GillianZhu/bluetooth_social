@@ -57,31 +57,7 @@
 							android:layout_centerVertical="true" android:layout_toLeftOf="@+id/imageView2"
 							android:layout_marginRight="5dp"></ImageView>      					
       				</RelativeLayout>
-      				<RelativeLayout
-      					android:id="@+id/setting_v_weibo"
-            			android:layout_width="fill_parent"
-            			android:layout_height="wrap_content"
-            			android:gravity="center_vertical"
-            			android:clickable="true"
-            			android:background="@drawable/preference_item" >
-            			<TextView
-        					android:layout_width="wrap_content" 
-        					android:layout_height="wrap_content"
-        					android:padding="8dp" 
-        					android:text="腾讯微博"
-        					android:textSize="17sp"		
-							android:textColor="#000" />      
-						<ImageView
-            				android:layout_width="wrap_content"
-        					android:layout_height="wrap_content"        	     	
-        					android:scaleType="matrix"
-        					android:layout_centerVertical="true"
-        					android:layout_alignParentRight="true"
-        					android:src="@drawable/mm_submenu" android:id="@+id/imageView4"/>
-						<TextView android:text="未绑定" android:id="@+id/setting_tv_bound" android:layout_marginTop="10dp"
-								android:layout_height="wrap_content" android:layout_width="wrap_content"
-								android:layout_alignTop="@+id/imageView4" android:layout_toLeftOf="@+id/imageView4"></TextView> 					
-      				</RelativeLayout>
+
       				<RelativeLayout
       					android:id="@+id/setting_v_photos"
             			android:layout_width="fill_parent"

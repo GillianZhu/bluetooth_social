@@ -62,8 +62,6 @@ import edu.minggo.chat.model.User;
 import edu.minggo.chat.util.OptionAlert;
 import edu.minggo.chat.util.PagingFriendList;
 import edu.minggo.chat.util.SideBar;
-import edu.minggo.game.icecream.DropIceCreamSurfaceView;
-import edu.minggo.tencent.weibo.OAuth;
 /**
  * 蓝星的主界面
  * @author minggo
@@ -71,22 +69,15 @@ import edu.minggo.tencent.weibo.OAuth;
  */
 public class MainTabActivity extends Activity implements BluetoothChatInterface{
 	/*********************游戏栏需要的参数*******************/
-	private View icecreamv;
-	private View slotteryv;
-	private View caiquanv;
 	private View fiveGameV;
-	private View chockGameV;
-	private View tencentWeibov;
 	/****************设置栏 需要的参数************************/
 	private Button exitAppbt;//推出程序按钮
 	private static int refresh_setting_kind=1;
 	private View personInfov;
 	private ImageView portraitiv;
-	private TextView weiboBoundtv;
 	private TextView photonumberstv; 
 	private View aboutLansiv;
 	private View photov;
-	private View weibov;
 	private View cancelHistoryv;
 	private View helpv;
 	/****************蓝星栏信息历史需要的参数*****************/
@@ -215,22 +206,22 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 			BluetoothChatService.nowuser.setPhoto(((BitmapDrawable)(this.getResources().getDrawable(R.drawable.xiaohei))).getBitmap());
 		}
     }
-    /**
-     * 模拟数据用的
-     * @param list
-     * @return
-     */
-    List<User> intiFriendList(List<User> list){
-    	list = new ArrayList<User>();
-    	
-    	for(int i=0;i<3;i++){
-    		User u = new User();
-    		u.setUsername("minggo"+i);
-        	u.setMotto("我老婆爱我"+i);
-        	list.add(u);
-    	}
-    	return list;
-    }
+//    /**
+////     * 模拟数据用的
+////     * @param list
+////     * @return
+////     */
+////    List<User> intiFriendList(List<User> list){
+////    	list = new ArrayList<User>();
+////
+////    	for(int i=0;i<3;i++){
+////    		User u = new User();
+////    		u.setUsername("minggo"+i);
+////        	u.setMotto("我老婆爱我"+i);
+////        	list.add(u);
+////    	}
+////    	return list;
+////    }
     /**
 	 * 头标点击监听
 	 */
@@ -632,33 +623,7 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 		
 		}else if(tabNo==2){
 			/********************初始化游戏页***************/
-			icecreamv = view3.findViewById(R.id.game_icecream_v);
-			slotteryv = view3.findViewById(R.id.game_slottery_v);
-			caiquanv = view3.findViewById(R.id.game_caiquan_v);
-			tencentWeibov = view3.findViewById(R.id.game_weibo_v);
 			fiveGameV = view3.findViewById(R.id.game_five_v);
-			chockGameV = view3.findViewById(R.id.game_chock);
-			
-			caiquanv.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					MainTabActivity.this.startActivity(new Intent(MainTabActivity.this,GameStoneScissorsClothActivity.class));
-				}
-			});
-			
-			slotteryv.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					MainTabActivity.this.startActivity(new Intent(MainTabActivity.this,GameCrazyLottery.class));
-				}
-			});
-			
-			icecreamv.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					MainTabActivity.this.startActivity(new Intent(MainTabActivity.this,GameIceCreamActivity.class));
-				}
-			});
 			
 			fiveGameV.setOnClickListener(new OnClickListener() {
 				@Override
@@ -666,20 +631,7 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 					MainTabActivity.this.startActivity(new Intent(MainTabActivity.this,GameFiveChessActivity.class));
 				}
 			});
-			chockGameV.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					Intent it = new Intent(MainTabActivity.this, GameShakeActivity.class);
-					MainTabActivity.this.startActivity(it);
-				}
-			});
-			tencentWeibov.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					Intent intent = new Intent(MainTabActivity.this,TencentWeiboActivity.class);
-					MainTabActivity.this.startActivityForResult(intent, 3);
-				}
-			});
+
 		}else if(tabNo==3){
 			/*******************初始化设置页**********************/
 			personInfov = view4.findViewById(R.id.setting_v_personalinfo);
@@ -687,9 +639,7 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 			portraitiv = (ImageView) view4.findViewById(R.id.setting_iv_portrait);
 			aboutLansiv = view4.findViewById(R.id.setting_v_about);
 			photov = view4.findViewById(R.id.setting_v_photos);
-			weibov = view4.findViewById(R.id.setting_v_weibo);
 			photonumberstv = (TextView) view4.findViewById(R.id.setting_tv_photonums);
-			weiboBoundtv = (TextView) view4.findViewById(R.id.setting_tv_bound);
 			cancelHistoryv = view4.findViewById(R.id.setting_cancel_history_v);
 			helpv = view4.findViewById(R.id.setting_v_help);
 			
@@ -698,16 +648,15 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 			personInfov.setOnClickListener(new SettingOnclickListener());
 			aboutLansiv.setOnClickListener(new SettingOnclickListener());
 			photov.setOnClickListener(new SettingOnclickListener());
-			weibov.setOnClickListener(new SettingOnclickListener());
 			cancelHistoryv.setOnClickListener(new SettingOnclickListener());
 			helpv.setOnClickListener(new SettingOnclickListener());
 			
 			SharedPreferences  prefs = PreferenceManager.getDefaultSharedPreferences(this);
-		    String oauth_token = prefs.getString(OAuth.OAUTH_TOKEN, "");//从prefs中取出OAuth_Token，若无则赋空值
-		    String oauth_token_secret = prefs.getString(OAuth.OAUTH_TOKEN_SECRET, "");
-		    if (oauth_token!=null&&oauth_token_secret!=null&&!oauth_token_secret.equals("")&&!oauth_token.equals("")) {
-				weiboBoundtv.setText("已绑定");
-			}
+//		    String oauth_token = prefs.getString(OAuth.OAUTH_TOKEN, "");//从prefs中取出OAuth_Token，若无则赋空值
+//		    String oauth_token_secret = prefs.getString(OAuth.OAUTH_TOKEN_SECRET, "");
+//		    if (oauth_token!=null&&oauth_token_secret!=null&&!oauth_token_secret.equals("")&&!oauth_token.equals("")) {
+//				weiboBoundtv.setText("已绑定");
+//			}
 			photonumberstv.setText("共"+DataBaseOperator.getSizePhotos(MainTabActivity.this)+"张");
 		}
 	}
@@ -726,11 +675,12 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 			portraitiv.setImageBitmap((Bitmap)data.getExtras().get("bitmap"));
 		}else if(resultCode==3){//更新相册相片书
 			photonumberstv.setText("总"+data.getExtras().get("size")+"张");
-		}else if (resultCode==4) {//绑定微博
-			weiboBoundtv.setText("已绑定");
-		}else if (requestCode==5) {//取消绑定
-			weiboBoundtv.setText("未绑定");
 		}
+//		else if (resultCode==4) {//绑定微博
+//			weiboBoundtv.setText("已绑定");
+//		}else if (requestCode==5) {//取消绑定
+//			weiboBoundtv.setText("未绑定");
+//		}
 	}
 	/**
 	 * 设置栏的按钮监听器
@@ -753,16 +703,15 @@ public class MainTabActivity extends Activity implements BluetoothChatInterface{
 			}else if(v==photov){
 				Intent intent = new Intent(MainTabActivity.this,MyGalleryActivity.class);
 				MainTabActivity.this.startActivityForResult(intent, 3);
-			}else if (v==weibov) {
-				Intent intent = new Intent(MainTabActivity.this,TencentWeiboBoundActivity.class);
-				MainTabActivity.this.startActivityForResult(intent, 4);
-			}else if (v==cancelHistoryv) {
+			}
+
+			else if (v==cancelHistoryv) {
 				OptionAlert.showAlert(MainTabActivity.this, "删除全部信息记录",new String[]{"确定删除"},null, new OptionAlert.OnAlertSelectId(){
 					@Override
 					public void onClick(int whichButton) {						
 						switch(whichButton){
 						case 0:
-							Toast.makeText(MainTabActivity.this, "删除成功", 2000).show();
+							Toast.makeText(MainTabActivity.this, "删除成功", Toast.LENGTH_SHORT).show();
 							break;
 						default:
 							break;

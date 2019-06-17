@@ -1,4 +1,4 @@
-#Wed Jun 05 09:00:36 CST 2019
-base.0=D\:\\ASProject\\Bluetooth_Social1\\Bluetooth_Social\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Mon Jun 17 16:37:27 CST 2019
+base.0=D\:\\ASProject\\bluetooth_social\\Bluetooth_Social\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex
