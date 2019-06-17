@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calendarID">
+
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+
+	</string-array>
+    <string-array name="calendarName">
+
+		<item>[2012-1-1 2012-1-31] </item>
+		<item>[2012-2-1 2012-2-29] </item>
+		<item>[2012-3-1 2012-3-31] </item>
+		<item>[2012-4-1 2012-1-30] </item>
+		<item>[2012-5-1 2012-5-31] </item>
+		<item>[2012-6-1 2012-6-30] </item>
+		<item>[2012-7-1 2012-7-31] </item>
+		<item>[2012-8-1 2012-8-31] </item>
+		<item>[2012-9-1 2012-9-30] </item>
+		<item>[2012-10-1 2012-10-31] </item>
+		<item>[2012-11-1 2012-11-30] </item>
+		<item>[2012-12-1 2012-12-31] </item>
+
+	</string-array>
+    <array name="default_smiley_name">
+		<item>[0]</item>
+		<item>[1]</item>
+		<item>[2]</item>
+		<item>[3]</item>
+		<item>[4]</item>
+		<item>[5]</item>
+		<item>[6]</item>
+		<item>[7]</item>
+		<item>[8]</item>
+		<item>[9]</item>
+		<item>[10]</item>
+		<item>[11]</item>
+		<item>[12]</item>
+		<item>[13]</item>
+		<item>[14]</item>
+		<item>[15]</item>
+		<item>[16]</item>
+		<item>[17]</item>
+		<item>[18]</item>
+		<item>[19]</item>
+		<item>[20]</item>
+		<item>[21]</item>
+		<item>[22]</item>
+		<item>[23]</item>
+		<item>[24]</item>
+		<item>[25]</item>
+		<item>[26]</item>
+		<item>[27]</item>
+		<item>[28]</item>
+		<item>[29]</item>
+		<item>[30]</item>
+		<item>[31]</item>
+		<item>[32]</item>
+		<item>[33]</item>
+		<item>[34]</item>
+		<item>[35]</item>
+		<item>[36]</item>
+		<item>[37]</item>
+		<item>[38]</item>
+		<item>[39]</item>
+		<item>[40]</item>
+		<item>[41]</item>
+		<item>[42]</item>
+		<item>[43]</item>
+		<item>[44]</item>
+		<item>[45]</item>
+		<item>[46]</item>
+		<item>[47]</item>
+		<item>[48]</item>
+		<item>[49]</item>
+		<item>[50]</item>
+		<item>[51]</item>
+		<item>[52]</item>
+		<item>[53]</item>
+		<item>[54]</item>
+		<item>[55]</item>
+		<item>[56]</item>
+		<item>[57]</item>
+		<item>[58]</item>
+		<item>[59]</item>
+		<item>[60]</item>
+		<item>[61]</item>
+		<item>[62]</item>
+		<item>[63]</item>
+		<item>[64]</item>
+		<item>[65]</item>
+		<item>[66]</item>
+		<item>[67]</item>
+		<item>[68]</item>
+		<item>[69]</item>
+		<item>[70]</item>
+		<item>[71]</item>
+		<item>[72]</item>
+		<item>[73]</item>
+		<item>[74]</item>
+		<item>[75]</item>
+		<item>[76]</item>
+		<item>[77]</item>
+		<item>[78]</item>
+		<item>[79]</item>
+		<item>[80]</item>
+		<item>[81]</item>
+		<item>[82]</item>
+		<item>[83]</item>
+		<item>[84]</item>
+		<item>[85]</item>
+		<item>[86]</item>
+		<item>[87]</item>
+		<item>[88]</item>
+		<item>[89]</item>
+		<item>[90]</item>
+		<item>[91]</item>
+		<item>[92]</item>
+		<item>[93]</item>
+		<item>[94]</item>
+		<item>[95]</item>
+		<item>[96]</item>
+		<item>[97]</item>
+		<item>[98]</item>
+		<item>[99]</item>
+		<item>[100]</item>
+		<item>[101]</item>
+		<item>[102]</item>
+		<item>[103]</item>
+		<item>[104]</item>
+		<item>[105]</item>
+		<item>[106]</item>
+		<item>[107]</item>
+		<item>[108]</item>
+		<item>[109]</item>
+		<item>[110]</item>
+		<item>[111]</item>
+		<item>[112]</item>
+		<item>[113]</item>
+		<item>[114]</item>
+		<item>[115]</item>
+		<item>[116]</item>
+		<item>[117]</item>
+		<item>[118]</item>
+		<item>[119]</item>
+		<item>[120]</item>
+		<item>[121]</item>
+		<item>[122]</item>
+		<item>[123]</item>
+		<item>[124]</item>
+		<item>[125]</item>
+		<item>[126]</item>
+		<item>[127]</item>
+		<item>[128]</item>
+		<item>[129]</item>
+		<item>[130]</item>
+		<item>[131]</item>
+		<item>[132]</item>
+		<item>[133]</item>
+		<item>[134]</item>
+		<item>[135]</item>
+		<item>[136]</item>
+		<item>[137]</item>
+		<item>[138]</item>
+		<item>[139]</item>
+		<item>[140]</item>
+		<item>[141]</item>
+		<item>[142]</item>
+		<item>[143]</item>
+		<item>[144]</item>
+		<item>[145]</item>
+		<item>[146]</item>
+		<item>[147]</item>
+		<item>[148]</item>
+		<item>[149]</item>
+		<item>[150]</item>
+		<item>[151]</item>
+		<item>[152]</item>
+		<item>[153]</item>
+		<item>[154]</item>
+		<item>[155]</item>
+		<item>[156]</item>
+		<item>[157]</item>
+		<item>[158]</item>
+		<item>[159]</item>
+		<item>[160]</item>
+		<item>[161]</item>
+		<item>[162]</item>
+		<item>[163]</item>
+		<item>[164]</item>
+		<item>[165]</item>
+		<item>[166]</item>
+		<item>[167]</item>
+		<item>[168]</item>
+		<item>[169]</item>
+		<item>[170]</item>
+		<item>[171]</item>
+		<item>[172]</item>
+		<item>[173]</item>
+		<item>[174]</item>
+		<item>[175]</item>
+		<item>[176]</item>
+		<item>[177]</item>
+		<item>[178]</item>
+		<item>[179]</item>
+		<item>[180]</item>
+		<item>[181]</item>
+		<item>[182]</item>
+		<item>[183]</item>
+		<item>[184]</item>
+		<item>[185]</item>
+		<item>[186]</item>
+		<item>[187]</item>
+		<item>[188]</item>
+		<item>[189]</item>
+		<item>[190]</item>
+		<item>[191]</item>
+		<item>[192]</item>
+		<item>[193]</item>
+		<item>[194]</item>
+		<item>[195]</item>
+		<item>[196]</item>
+		<item>[197]</item>
+		<item>[198]</item>
+		<item>[199]</item>
+		<item>[200]</item>
+		<item>[201]</item>
+		<item>[202]</item>
+		<item>[203]</item>
+		<item>[204]</item>
+		<item>[205]</item>
+		<item>[206]</item>
+		<item>[207]</item>
+		<item>[208]</item>
+		<item>[209]</item>
+		<item>[210]</item>
+		<item>[211]</item>
+		<item>[212]</item>
+		<item>[213]</item>
+		<item>[214]</item>
+		<item>[215]</item>
+		<item>[216]</item>
+		<item>[217]</item>
+		<item>[218]</item>
+		<item>[219]</item>
+		<item>[220]</item>
+		<item>[221]</item>
+		<item>[222]</item>
+		<item>[223]</item>
+		<item>[224]</item>
+		<item>[225]</item>
+		<item>[226]</item>
+		<item>[227]</item>
+		<item>[228]</item>
+		<item>[229]</item>
+	</array>
+    <string-array name="set_myinfo_item">
+        <item>照一张吧</item>
+        <item>用本地的</item>
+    </string-array>
+    <color name="TextColor">#FFFFFF</color>
+    <color name="about_bg">#E7E7E7</color>
+    <color name="aliceblue">#f0f8ff</color>
+    <color name="antiquewhite">#faebd7</color>
+    <color name="aqua">#00ffff</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="azure">#f0ffff</color>
+    <color name="bantouming">#b0000000</color>
+    <color name="beige">#f5f5dc</color>
+    <color name="bgColor">#000000</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="black">#000000</color>
+    <color name="blanchedalmond">#ffebcd</color>
+    <color name="blue">#0000ff</color>
+    <color name="blueviolet">#8a2be2</color>
+    <color name="brown">#a52a2a</color>
+    <color name="burlywood">#deb887</color>
+    <color name="cadetblue">#5f9ea0</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="chocolate">#d2691e</color>
+    <color name="coffeebg">#907F72</color>
+    <color name="coral">#ff7f50</color>
+    <color name="cornflowerblue">#6495ed</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="crimson">#dc143c</color>
+    <color name="cyan">#00ffff</color>
+    <color name="darkblue">#00008b</color>
+    <color name="darkcyan">#008b8b</color>
+    <color name="darkgoldenrod">#b8860b</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#a9a9a9</color>
+    <color name="darkkhaki">#bdb76b</color>
+    <color name="darkmagenta">#8b008b</color>
+    <color name="darkolivegreen">#556b2f</color>
+    <color name="darkorange">#ff8c00</color>
+    <color name="darkorchid">#9932cc</color>
+    <color name="darkred">#8b0000</color>
+    <color name="darksalmon">#e9967a</color>
+    <color name="darkseagreen">#8fbc8f</color>
+    <color name="darkslateblue">#483d8b</color>
+    <color name="darkslategray">#2f4f4f</color>
+    <color name="darkslategrey">#2f4f4f</color>
+    <color name="darkturquoise">#00ced1</color>
+    <color name="darkviolet">#9400d3</color>
+    <color name="deeppink">#ff1493</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="eee">#eee</color>
+    <color name="firebrick">#b22222</color>
+    <color name="floralwhite">#fffaf0</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="fuchsia">#ff00ff</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="ghostwhite">#f8f8ff</color>
+    <color name="gold">#ffd700</color>
+    <color name="goldenrod">#daa520</color>
+    <color name="gray">#808080</color>
+    <color name="greanwhite">#90C03C</color>
+    <color name="green">#008000</color>
+    <color name="greenlight">#B8F138</color>
+    <color name="greenyellow">#adff2f</color>
+    <color name="grey">#808080</color>
+    <color name="greywhite">#7b797b</color>
+    <color name="honeydew">#f0fff0</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="indianred">#cd5c5c</color>
+    <color name="indigo">#4b0082</color>
+    <color name="item_select">#BCDD55</color>
+    <color name="ivory">#fffff0</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavenderblush">#fff0f5</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="lemonchiffon">#fffacd</color>
+    <color name="lightblue">#add8e6</color>
+    <color name="lightcoral">#f08080</color>
+    <color name="lightcyan">#e0ffff</color>
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="lightgreen">#90ee90</color>
+    <color name="lightgrey">#d3d3d3</color>
+    <color name="lightpink">#ffb6c1</color>
+    <color name="lightsalmon">#ffa07a</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="lightskyblue">#87cefa</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#b0c4de</color>
+    <color name="lightyellow">#ffffe0</color>
+    <color name="lime">#00ff00</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="linen">#faf0e6</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66cdaa</color>
+    <color name="mediumblue">#0000cd</color>
+    <color name="mediumorchid">#ba55d3</color>
+    <color name="mediumpurple">#9370db</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="mediumslateblue">#7b68ee</color>
+    <color name="mediumspringgreen">#00fa9a</color>
+    <color name="mediumturquoise">#48d1cc</color>
+    <color name="mediumvioletred">#c71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#f5fffa</color>
+    <color name="mistyrose">#ffe4e1</color>
+    <color name="moccasin">#ffe4b5</color>
+    <color name="navajowhite">#ffdead</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#fdf5e6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6b8e23</color>
+    <color name="orange">#ffa500</color>
+    <color name="orangered">#ff4500</color>
+    <color name="orchid">#da70d6</color>
+    <color name="palegoldenrod">#eee8aa</color>
+    <color name="palegreen">#98fb98</color>
+    <color name="paleturquoise">#afeeee</color>
+    <color name="palevioletred">#db7093</color>
+    <color name="papayawhip">#ffefd5</color>
+    <color name="peachpuff">#ffdab9</color>
+    <color name="peru">#cd853f</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="plum">#dda0dd</color>
+    <color name="powderblue">#b0e0e6</color>
+    <color name="purple">#800080</color>
+    <color name="red">#ff0000</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="royalblue">#4169e1</color>
+    <color name="saddlebrown">#8b4513</color>
+    <color name="salmon">#fa8072</color>
+    <color name="sandybrown">#f4a460</color>
+    <color name="seaShell">#fff5ee</color>
+    <color name="seagreen">#2e8b57</color>
+    <color name="sex_select_color">#E5E4E4</color>
+    <color name="sienna">#a0522d</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="skyblue">#87ceeb</color>
+    <color name="slateblue">#6a5acd</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#fffafa</color>
+    <color name="springgreen">#00ff7f</color>
+    <color name="steelblue">#4682b4</color>
+    <color name="tan">#d2b48c</color>
+    <color name="teal">#008080</color>
+    <color name="text_num_gray">#333</color>
+    <color name="thistle">#d8bfd8</color>
+    <color name="tomato">#ff6347</color>
+    <color name="touming">#00000000</color>
+    <color name="turquoise">#40e0d0</color>
+    <color name="violet">#ee82ee</color>
+    <color name="wheat">#f5deb3</color>
+    <color name="white">#ffffff</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="yellow">#ffff00</color>
+    <dimen name="LargeTextSize">16dp</dimen>
+    <dimen name="TitleTextSize">18dp</dimen>
+    <dimen name="bottom_tab_font_size">10.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+    <item name="black" type="drawable">#ff000000</item>
+    <item name="list_background" type="drawable">#fff4f4f4</item>
+    <item name="ltgray" type="drawable">#fff4f4f4</item>
+    <item name="ltyellow" type="drawable">#fffff4db</item>
+    <item name="transparent" type="drawable">#00000000</item>
+    <item name="transparent_background" type="drawable">#99000000</item>
+    <item name="widget_edit_block_bg_normal" type="drawable">@android:color/transparent</item>
+    <item name="main_radio" type="id"/>
+    <string name="about_text">关于LanSi</string>
+    <string name="app_name">《蓝牙社交软件》</string>
+    <string name="back2hid">隐藏</string>
+    <string name="bt_not_enabled_leaving">蓝牙未能启动，不能进行交流！</string>
+    <string name="button_scan">搜索蓝牙设备</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete_confirm">确定删除</string>
+    <string name="discoverable">让设备可见</string>
+    <string name="exit_confirm">确认退出</string>
+    <string name="insecure_connect">非安全方式连接</string>
+    <string name="loadinfo">加载中....</string>
+    <string name="login">登录</string>
+    <string name="logining">正在登录。。。。。。</string>
+    <string name="main_at">\@我</string>
+    <string name="main_comment">评论</string>
+    <string name="main_home">首页</string>
+    <string name="main_message">私信</string>
+    <string name="main_my_info">我的资料</string>
+    <string name="main_news">信息</string>
+    <string name="menu_game">游戏</string>
+    <string name="mode_ready">请选择</string>
+    <string name="modify_age_tips">真的？怎么看起来更年轻，呵呵呵。。。</string>
+    <string name="modify_email_tips">邮箱可能带给你惊喜啦，咔咔咔。。。</string>
+    <string name="modify_exit">取消</string>
+    <string name="modify_hobby_tips">篮球怎么样，啪啪啪。。。</string>
+    <string name="modify_introduce_tips">是facebook的创始人?嗯嗯嗯。。。</string>
+    <string name="modify_lognname_tips">这个就别改了吧，呜呜呜。。。</string>
+    <string name="modify_motto_tips">原来你这么有个性啊，哈哈哈。。。</string>
+    <string name="modify_name_tips">好名字我会很快记住哦，嘻嘻嘻。。。</string>
+    <string name="modify_phone_tips">电话最直接啦，叽叽叽。。。</string>
+    <string name="modify_province_tips">你不会是我邻居吧，咦咦咦。。。</string>
+    <string name="modify_save">保存</string>
+    <string name="modify_title">更新</string>
+    <string name="more">更多</string>
+    <string name="more_text">更多</string>
+    <string name="motto">个性签名</string>
+    <string name="myinfo">我的资料</string>
+    <string name="myinfopic">头像</string>
+    <string name="myphoto_text">我的相册</string>
+    <string name="news">账号列表</string>
+    <string name="no">取消</string>
+    <string name="none_found">没有发现可匹配设备</string>
+    <string name="none_paired">没有已匹配的设备</string>
+    <string name="not_connected">你还没有连接任何设备！</string>
+    <string name="password">密码</string>
+    <string name="player_one_lost">红棋赢了</string>
+    <string name="player_two_lost">绿棋赢了</string>
+    <string name="record_myphoto_desc">这一刻的想法</string>
+    <string name="record_myphoto_save">保存</string>
+    <string name="record_myphoto_text">记录图片</string>
+    <string name="refresh">刷新</string>
+    <string name="regist">注册</string>
+    <string name="scanning">搜索设备...</string>
+    <string name="secure_connect">安全方式连接</string>
+    <string name="select_device">选择一个设备连接</string>
+    <string name="send">发送</string>
+    <string name="sendpic">发图片</string>
+    <string name="set_myinfo">选择图片</string>
+    <string name="sex_female">女</string>
+    <string name="sex_male">男</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_not_connected">未连接</string>
+    <string name="title_other_devices">其他可匹配设备</string>
+    <string name="title_paired_devices">已匹配的设备</string>
+    <string name="tittle_back">返回</string>
+    <string name="username">账号</string>
+    <string name="welcome">Minggo欢迎您</string>
+    <string name="wifetips">肥妹提示：</string>
+    <string name="write_message">写信息</string>
+    <style name="AnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+	</style>
+    <style name="AnimFade" parent="@android:style/Animation.Activity">  
+    	<item name="android:activityOpenEnterAnimation">@anim/fade_in</item>  
+    	<item name="android:activityOpenExitAnimation">@anim/hold</item>        
+    	<item name="android:activityCloseEnterAnimation">@anim/fade_in</item>  
+    	<item name="android:activityCloseExitAnimation">@anim/fade_out</item> 
+	</style>
+    <style name="AnimHead" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/head_in</item>
+        <item name="android:windowExitAnimation">@anim/head_out</item>
+	</style>
+    <style name="AnimTop2" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+	</style>
+    <style name="Anim_style2" parent="android:Theme.NoTitleBar">         
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+	</style>
+    <style name="ChattingSmileyItem">  
+    	<item name="android:layout_weight">2</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:background">@drawable/chatting_smiley_item_xml</item>
+        <!-- <item name="android:clickable">true</item> -->
+	</style>
+    <style name="ChoicePreferenceButton">
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:minWidth">60.0dip</item>
+    </style>
+    <style name="DataSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="HeadScale" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimHead</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+     </style>
+    <style name="LoadingDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MMButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/mm_btn_text</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">40dp</item>
+    </style>
+    <style name="MMFontTipInList">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MMFontTitleInList">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MMFriendListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMLineActionButton" parent="@style/MMLineButton">
+        <item name="android:background">@drawable/btn_style_one</item>
+        <item name="android:textColor">@color/mm_style_one_btn_text</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="MMLineButton" parent="@style/MMButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mm_style_two_btn_text</item>
+    </style>
+    <style name="MMListCatalog" parent="textShadowStyle">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <!-- 之前的背景#C6C3C6 -->
+        <item name="android:background">@drawable/mm_contact_title</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMTheme.DataSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+       
+        <item name="android:windowBackground">@drawable/exit_dialog_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/DataSheetAnimation</item>
+    </style>
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->        
+     </style>
+    <style name="MyDialogStyleTop" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimTop2</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->        
+     </style>
+    <style name="chat_content_style">
+	    <item name="android:minHeight">50dp</item>
+	    <item name="android:gravity">left|center</item>    
+		<item name="android:textColor">#000000</item>   
+		<item name="android:textSize">16sp</item>      
+		<item name="android:lineSpacingExtra">2dp</item>   
+		<item name="android:clickable">true</item>   
+		<item name="android:focusable">true</item>   
+		<item name="android:background">#bfbfbf</item> 
+	</style>
+    <style name="chat_text_date_style">
+	    <item name="android:padding">2dp</item>    
+		<item name="android:textColor">#ffffff</item>   
+		<item name="android:textSize">12sp</item>      
+		<item name="android:background">@drawable/chatting_time_bg</item> 
+	</style>
+    <style name="chat_text_name_style">  
+		<item name="android:textColor">#818181</item>   
+		<item name="android:textSize">15sp</item>      
+		<item name="android:gravity">center</item> 
+	</style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:background">@color/touming</item>
+		<item name="android:windowBackground">@color/touming</item>
+		<item name="android:backgroundDimEnabled">false</item>
+	</style>
+    <style name="editStyle4">
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="feeling_style">
+	    <item name="android:padding">1dp</item>    
+		<item name="android:textColor">#ffffff</item>   
+		<item name="android:textSize">12sp</item>      
+		<item name="android:background">#ff00</item> 
+	</style>
+    <style name="listViewStyle">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#00000000</item>
+    </style>
+    <style name="notitle">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+    <style name="textShadowStyle">  
+        <item name="android:shadowColor">#ff595c61</item>  
+        <item name="android:shadowRadius">1</item>  
+        <item name="android:shadowDx">3</item>  
+        <item name="android:shadowDy">3</item>  
+    </style>
+</resources>
